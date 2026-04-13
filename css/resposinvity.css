@@ -1,0 +1,175 @@
+@media (max-width: 1024px) {
+
+    #hero {
+        flex-direction: column;
+        padding: 40px;
+        text-align: center;
+    }
+
+    .hero-right {
+        transform: none;
+        max-width: 300px;
+        height: 300px;
+    }
+
+    .hero-img,
+    .hero-overlay {
+        transform: none;
+    }
+
+    .hero-signature {
+        position: static;
+        transform: none;
+        margin-top: 20px;
+    }
+
+    #middle-sections {
+        grid-template-columns: 1fr;
+        padding: 40px;
+    }
+
+    .left-side {
+        border: none;
+        padding: 0;
+    }
+
+    #projects {
+        padding: 0;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #down-sections {
+        grid-template-columns: 1fr;
+        padding: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .process-steps {
+        justify-content: space-between;
+    }
+
+    #contact {
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #footer {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    #foot-navbar ul {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #navbar ul {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .lets-work-btn {
+        margin: 0;
+    }
+
+    #hero {
+        padding: 30px 20px;
+    }
+
+    #main-title {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .availability {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-info {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .process-steps {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .process-steps::after {
+        display: none;
+    }
+
+    .step {
+        max-width: 100%;
+    }
+
+    .contact-actions {
+        flex-direction: column;
+    }
+
+    #footer p {
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #main-title {
+        font-size: 26px;
+    }
+
+    .position {
+        font-size: 10px;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    .about-info {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-right {
+        max-width: 220px;
+        height: 220px;
+    }
+
+    .social-links {
+        position: static;
+        margin-top: 20px;
+    }
+}
